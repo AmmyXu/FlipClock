@@ -1,5 +1,7 @@
 ## 安装
+```
 npm i --save easy-flip-clock
+```
 
 ## 使用
 
