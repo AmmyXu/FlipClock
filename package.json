@@ -1,0 +1,32 @@
+{
+  "name": "flip-clock",
+  "version": "1.0.0",
+  "private": false,
+  "main": "lib/flip-clock.umd.min",
+  "scripts": {
+    "dev": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint --fix",
+    "lib": "vue-cli-service build --target lib --name flip-clock --dest lib ./src/index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.9.6",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
