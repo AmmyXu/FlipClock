@@ -7,13 +7,11 @@ npm i --save easy-flip-clock
 
 ```
 <template>
-  <div class="demo">
-    <FlipClock />
-  </div>
+  <FlipClock />
 </template>
 
 <script>
-import FlipClock from './FlipClock'
+import FlipClock from 'easy-flip-clock'
 
 export default {
   components: {
