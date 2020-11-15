@@ -1,27 +1,23 @@
-## Project setup
+## 安装
+npm i --save easy-flip-clock
+
+## 使用
+
 ```
-npm install
+<template>
+  <div class="demo">
+    <FlipClock />
+  </div>
+</template>
+
+<script>
+import FlipClock from './FlipClock'
+
+export default {
+  components: {
+    FlipClock
+  }
+}
+</script>
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run dev
-```
-
-### Compiles and minifies for lib
-```
-npm run lib
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
